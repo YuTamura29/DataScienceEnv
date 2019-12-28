@@ -1,0 +1,12 @@
+version: '3'
+services:
+  analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: science
+    ports:
+    - "8888:8888"
+    volumes:
+    - .:/workdir
+    working_dir: /worker
