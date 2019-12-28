@@ -2,7 +2,7 @@
 If you need to compose up anaconda enviroment in docker, you can use this repository.
 We can add any python library.
 
-# how to use
+# How to use
 ## Step1
 Clone this repository
 
